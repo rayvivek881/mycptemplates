@@ -1,18 +1,4 @@
-#include<iostream>
-#include<algorithm>
-#include<functional>
-#include<numeric>
-#include<cstdint>
-#include<vector>
-#include<cstring>
-#include<map>
-#include<set>
-#include<unordered_map>
-#include<unordered_set>
-#include <forward_list>
-#include<queue>
-#include<cmath>
-#include<sstream>
+#include<bits/stdc++.h>
 
 struct element {
   int l, r;

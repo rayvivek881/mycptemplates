@@ -47,7 +47,7 @@ public:
 		update(tree2, l, delta * l);
 		update(tree2, r + 1, -delta * (r + 1));
 	}
-	int prefix_query(int idx) const {
+	T prefix_query(int idx) const {
 		idx += 1;
 		return query(tree1, idx) * idx - query(tree2, idx);
 	}
